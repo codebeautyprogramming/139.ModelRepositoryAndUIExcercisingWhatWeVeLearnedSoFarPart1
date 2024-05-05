@@ -1,0 +1,8 @@
+--please use Id-s that are valid in your DataBase
+
+insert into RecipeIngredients (RecipeId, IngredientId, Amount)
+values (9,25, 200)
+
+delete from RecipeIngredients where Id=10
+
+select * from RecipeIngredients 
